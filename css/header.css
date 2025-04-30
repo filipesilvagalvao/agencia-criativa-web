@@ -1,0 +1,49 @@
+/*HEADER*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #00b8e6;
+}
+
+.logo img {
+    width: min(100px, 23%);
+    height: auto;
+}
+
+.nav-menu {
+    background-color: #000000;
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 2px solid #00b8e6;
+}
+
+.nav-list,
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-list li {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+}

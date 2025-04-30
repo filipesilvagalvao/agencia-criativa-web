@@ -1,0 +1,43 @@
+/*section formulario*/
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    background-color: #222;
+    color: #ddd;
+}
+
+#contact img {
+    width: 90%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: min(500px, 95%);
+    gap: 10px;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #00b8e6;
+    color: #000;
+}
+
+form>input,
+form>textarea,
+form>button {
+    width: 100%;
+    height: 40px;
+    font-size: 1.3rem;
+}
+
+form>button {
+    background-color: #00b8e6a4;
+    border: none;
+}
