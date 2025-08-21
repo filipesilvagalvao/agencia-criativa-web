@@ -1,9 +1,0 @@
-/*section home*/
-.banner-welcome img {
-    width: min(350px, 40%);
-    height: auto;
-}
-
-.banner-welcome li::before {
-    content: '✅';
-}
