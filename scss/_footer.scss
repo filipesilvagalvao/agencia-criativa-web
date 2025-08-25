@@ -1,0 +1,26 @@
+@use "variaveis" as *;
+@use "mixins" as *;
+.footer {
+  background: $dark-color;
+  color: $dark-color;
+  text-align: center;
+  padding: 24px 0 12px 0;
+  margin-top: 48px;
+
+  &__social {
+    margin-top: 10px;
+    font-size: 2rem;
+
+    i {
+      margin: 0 8px;
+      color: $fisrt-color;
+      transition: color 0.2s, transform 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        color: $secondary-color;
+        transform: scale(1.15);
+      }
+    }
+  }
+}

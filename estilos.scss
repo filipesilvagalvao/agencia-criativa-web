@@ -1,0 +1,42 @@
+@use "scss/base";
+@use "scss/header";
+@use "scss/layout";
+@use "scss/footer";
+
+@media (max-width: 900px) {
+  .section {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .menu__list {
+    justify-content: initial;
+  }
+  .logo {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+  .main-title {
+    font-size: 1.5rem;
+  }
+  .section__content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 18px 6px;
+    margin: 24px 4px;
+  }
+  .menu__list {
+    gap: 12px;
+    font-size: 0.98rem;
+  }
+  .footer__social {
+    font-size: 1.3rem;
+  }
+  .section__content {
+    grid-template-columns: 1fr;
+  }
+}

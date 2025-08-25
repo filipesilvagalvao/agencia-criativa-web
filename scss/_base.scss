@@ -1,0 +1,20 @@
+@use "variaveis" as *;
+@use "mixins" as *;
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  background: $dark-color;
+  background-image: url("/imgs/batthern.png");
+  color: $white-color;
+  line-height: 1.6;
+  position: relative;
+}
